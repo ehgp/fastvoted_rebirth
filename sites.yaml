@@ -1,0 +1,30 @@
+# This file contains the list of sites that are scraped by the bot with primary and backups with their cache time in minutes.
+sites:
+    github:
+        primary: "https://github.com/trending"
+        backup: "https://devo.ams3.digitaloceanspaces.com/github.json"
+        cache: 5
+    hackernews:
+        primary: "https://news.ycombinator.com"
+        backup: "https://devo.ams3.digitaloceanspaces.com/hackernews.json"
+        cache: 5
+    producthunt:
+        primary: "https://www.producthunt.com"
+        backup: "https://devo.ams3.digitaloceanspaces.com/producthunt.json"
+        cache: 15
+    designernews:
+        primary: "https://www.designernews.co"
+        backup: "https://www.designernews.co/api/v2/stories"
+        cache: 5
+    devto:
+        primary: "https://dev.to"
+        backup: "https://dev.to/api/articles?page=1"
+        cache: 5
+    lobsters:
+        primary: "https://lobste.rs"
+        backup: "https://lobste.rs/hottest.json"
+        cache: 5
+    tabnews:
+        primary: "https://www.tabnews.com.br"
+        backup: "https://www.tabnews.com.br/api/v1/contents?page=1&per_page=20&strategy=relevant"
+        cache: 5
