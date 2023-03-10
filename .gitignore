@@ -166,3 +166,5 @@ chat_logs
 **/*.json
 **/*.jsonl
 ./chat_logs
+proxies.txt
+moco_lottery_liquor.html
